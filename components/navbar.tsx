@@ -20,7 +20,7 @@ const Navbar = async () => {
   return (
     <div className="border-b">
       <div className="flex items-center h-16 px-4">
-        <StoreSwitcher items={[]} />
+        <StoreSwitcher items={stores} />
         <MainNav className="mx-6" />
         <div className="flex items-center ml-auto space-x-4">
           <UserButton afterSignOutUrl="/"></UserButton>
