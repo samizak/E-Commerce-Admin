@@ -12,7 +12,7 @@
   resolved "https://registry.yarnpkg.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz#7bf68b20c0a350f936915fcae06f58e32007ce30"
   integrity sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==
 
-"@babel/runtime@^7.13.10", "@babel/runtime@^7.20.7":
+"@babel/runtime@^7.13.10", "@babel/runtime@^7.20.7", "@babel/runtime@^7.21.0":
   version "7.22.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.22.6.tgz#57d64b9ae3cff1d67eb067ae117dac087f5bd438"
   integrity sha512-wDb5pWm4WDdF6LFUde3Jl8WzPA+3ZbxYqkC6xAXuD3irdEHN1k0NfTRrJD8ZD378SJ61miMLCqIOXYhd8x+AJQ==
@@ -84,6 +84,38 @@
   integrity sha512-IA/iSXJJZym4Z6f9OcT9OJayK2opVhxUVJky15aY4iVsJCPScgApBuuzC7N4vfXwA6RI/wGebFbvmsEQ3oI/UA==
   dependencies:
     csstype "3.1.1"
+
+"@cloudinary-util/url-loader@^3.9.1":
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/@cloudinary-util/url-loader/-/url-loader-3.9.1.tgz#71456ceb289de08c27bb8688b3733066a1ec5654"
+  integrity sha512-5j91AbiNIIyWz24hzrpKKEZut08j9px5xGTSwqFS1c2aadBOirOAOY8C23SzJSQNmuBDDZnHgH83EWfrZj3leA==
+  dependencies:
+    "@cloudinary-util/util" "2.2.0"
+    "@cloudinary/url-gen" "^1.10.1"
+
+"@cloudinary-util/util@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@cloudinary-util/util/-/util-2.2.0.tgz#754f474d69f878249478fb98e1217a219063f482"
+  integrity sha512-FCEwoswGO9z5BmSY0iJLos8U4bmNGIy7Ap8KoJRJ3Vn2STqx+ilDzYMPJTQ8FVcYD1iDajMs52xg00oWO99pNg==
+
+"@cloudinary-util/util@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@cloudinary-util/util/-/util-2.2.1.tgz#c482d9321d37d921b347858a121c161b68782bd3"
+  integrity sha512-MEIqn5WtPP3mxSMTNNfpqlGS1UquAXcjmVdY/t/edD/ZWVjI85viBiOMIuF0W6n6UF5gTstLymfQNYx0YO/GZg==
+
+"@cloudinary/transformation-builder-sdk@^1.2.7":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@cloudinary/transformation-builder-sdk/-/transformation-builder-sdk-1.3.0.tgz#5a4add09669d7731a9859a1159cda08c135279ad"
+  integrity sha512-/ax91epnmsr72JB7piI6tilld2POI1Xigf7uRZhaCG1QciQBtHCIfJc/IVLfwr9GYuB79oWYVF/SVsT7+7YA8Q==
+  dependencies:
+    "@cloudinary/url-gen" "^1.7.0"
+
+"@cloudinary/url-gen@^1.10.1", "@cloudinary/url-gen@^1.7.0":
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/@cloudinary/url-gen/-/url-gen-1.10.2.tgz#ac538d01473ba523271ff4a72fca97856d49954d"
+  integrity sha512-0iQcowRGxbRMuWijr3gkWajyrtocXyO5va6b2f5AIuA8K5Utd3IEq17DGR93kpOOLU439JBSjORuWifyphGduA==
+  dependencies:
+    "@cloudinary/transformation-builder-sdk" "^1.2.7"
 
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
@@ -713,6 +745,18 @@
   dependencies:
     tslib "^2.4.0"
 
+"@tanstack/react-table@^8.9.3":
+  version "8.9.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/react-table/-/react-table-8.9.3.tgz#03a52e9e15f65c82a8c697a445c42bfca0c5cfc4"
+  integrity sha512-Ng9rdm3JPoSCi6cVZvANsYnF+UoGVRxflMb270tVj0+LjeT/ZtZ9ckxF6oLPLcKesza6VKBqtdF9mQ+vaz24Aw==
+  dependencies:
+    "@tanstack/table-core" "8.9.3"
+
+"@tanstack/table-core@8.9.3":
+  version "8.9.3"
+  resolved "https://registry.yarnpkg.com/@tanstack/table-core/-/table-core-8.9.3.tgz#991da6b015f6200fdc841c48048bee5e197f6a46"
+  integrity sha512-NpHZBoHTfqyJk0m/s/+CSuAiwtebhYK90mDuf5eylTvgViNOujiaOaxNDxJkQQAsVvHWZftUGAx1EfO1rkKtLg==
+
 "@types/body-parser@*":
   version "1.19.2"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.19.2.tgz#aea2059e28b7658639081347ac4fab3de166e6f0"
@@ -1319,6 +1363,13 @@ damerau-levenshtein@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.8.tgz#b43d286ccbd36bc5b2f7ed41caf2d0aba1f8a6e7"
   integrity sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==
+
+date-fns@^2.30.0:
+  version "2.30.0"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
+  integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
+  dependencies:
+    "@babel/runtime" "^7.21.0"
 
 debug@^3.2.7:
   version "3.2.7"
@@ -2517,6 +2568,15 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
+
+next-cloudinary@^4.15.0:
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/next-cloudinary/-/next-cloudinary-4.15.0.tgz#1d72e2332f82a2d1e22c749b3140588aea1425bc"
+  integrity sha512-pcpPR7PhtRskQT8oMet1X7qnwkc6wRaexPDkuSdHtZInx6yMZlxWj9sXQLtQMpyHy8NAWXLJ7aUsMpSg2VHjtA==
+  dependencies:
+    "@cloudinary-util/url-loader" "^3.9.1"
+    "@cloudinary-util/util" "^2.2.1"
+    "@cloudinary/url-gen" "^1.10.1"
 
 next@13.4.10:
   version "13.4.10"
