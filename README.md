@@ -1,34 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fullstack E-Commerce Admin Panel
 
-## Getting Started
+## Description
+A fullstack E-Commerce Admin panel created with NextJS, React, TailwindCSS, Clerk, shadcn and Prisma.
 
-First, run the development server:
+## Live Preview
+[LINK HERE]
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Technologies
+* TypeScript
+* NextJS
+* React
+* Tailwind CSS
+* MongoDB
+* Prisma
+* Clerk
+* Zustand
+* shadcn
+* Axios
+
+# Getting Started
+
+## 1. Cloning the repository
+```shell
+git clone https://github.com/samizak/E-Commerce-Admin.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 2. Install packages
+```shell
+npm i
+```
+Or if you prefer using Yarn:
+```shell
+yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 3. Setup .env file
+```js
+DATABASE_URL=
+NEXTAUTH_JWT_SECRET=
+NEXTAUTH_SECRET=
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 4. Start the app
+```shell
+npm run dev
+```
+Or if you prefer using Yarn:
+```shell
+yarn dev
+```
 
-## Learn More
+## Available commands
 
-To learn more about Next.js, take a look at the following resources:
+Running commands with npm `npm run [command]`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| command         | description                              |
+| :-------------- | :--------------------------------------- |
+| `dev`           | Starts a development instance of the app |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Preview
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
