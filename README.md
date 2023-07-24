@@ -11,7 +11,7 @@ A fullstack E-Commerce Admin panel created with NextJS, React, TailwindCSS, Cler
 * NextJS
 * React
 * Tailwind CSS
-* MongoDB
+* MySQL
 * Prisma
 * Clerk
 * Zustand
