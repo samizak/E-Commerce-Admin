@@ -21,6 +21,23 @@ https://e-commerce-admin-woad.vercel.app/
 * Axios
 * React Hot Toast
 * Lucide React
+* Stripe
+
+## Key Features:
+
+- Ability to create, search and control multiple `stores` through Admin CMS.
+- Ability to view store `overview` of sale details and revenue graph.
+- Ability to create, update and delete `Billboards`.
+- Ability to create, update and delete `Categories`.
+- Ability to create, update and delete `Products`.
+- Ability to update `Store` name.
+- Ability to upload multiple images for products and change or remove them.
+- Ability to create, update and delete filters such as `Color` and `Size`.
+- Ability to control `Featured` products.
+- Ability to `archive` products.
+- Ability to view orders and sales.
+- Ability to toggle `Dark` and `Light` mode theme.
+
 
 # Getting Started
 
