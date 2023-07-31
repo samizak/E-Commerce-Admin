@@ -106,4 +106,8 @@ Running commands with npm `npm run [command]`
 
 
 ## Preview
+### Main Dashboard
+![Untitled](https://github.com/samizak/E-Commerce-Admin/assets/30938455/db23d33a-e469-44a1-9813-9d2bfef9e297)
 
+### Edit Product
+![Untitled2](https://github.com/samizak/E-Commerce-Admin/assets/30938455/4f8a752b-652e-46c1-b913-1695902ed5fd)
