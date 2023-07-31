@@ -4,7 +4,7 @@
 A fullstack E-Commerce Admin panel created with NextJS, React, TailwindCSS, Clerk, shadcn and Prisma.
 
 ## Live Preview
-[LINK HERE]
+https://e-commerce-admin-woad.vercel.app/
 
 ## Technologies
 * TypeScript
