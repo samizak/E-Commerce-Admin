@@ -17,7 +17,7 @@ const formSchema = z.object({
   name: z.string().min(1),
 });
 
-export default function storeModal() {
+export default function StoreModal() {
   const storeModal = useStoreModal();
 
   const [isLoading, setIsLoading] = useState(false);
