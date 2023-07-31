@@ -17,6 +17,8 @@ https://e-commerce-admin-woad.vercel.app/
 * Zustand
 * shadcn
 * Axios
+* React Hot Toast
+* Lucide React
 
 # Getting Started
 
