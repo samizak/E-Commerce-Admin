@@ -37,6 +37,8 @@ https://e-commerce-admin-woad.vercel.app/
 - Ability to `archive` products.
 - Ability to view orders and sales.
 - Ability to toggle `Dark` and `Light` mode theme.
+- Using `Stripe` Intergration.
+- Using `MySQL` database.
 
 
 # Getting Started
