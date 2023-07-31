@@ -3,6 +3,8 @@
 ## Description
 A fullstack E-Commerce Admin panel created with NextJS, React, TailwindCSS, Clerk, shadcn and Prisma.
 
+- [Link to Main Store](https://github.com/samizak/E-Commerce-Store/).
+
 ## Live Preview
 https://e-commerce-admin-woad.vercel.app/
 
